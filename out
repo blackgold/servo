@@ -1,0 +1,47 @@
+Client:
+ Version:      1.11.0
+ API version:  1.23
+ Go version:   go1.5.4
+ Git commit:   4dc5990
+ Built:        Wed Apr 13 18:34:23 2016
+ OS/Arch:      linux/amd64
+
+Server:
+ Version:      1.11.0
+ API version:  1.23
+ Go version:   go1.5.4
+ Git commit:   4dc5990
+ Built:        Wed Apr 13 18:34:23 2016
+ OS/Arch:      linux/amd64
+Containers: 0
+ Running: 0
+ Paused: 0
+ Stopped: 0
+Images: 5
+Server Version: 1.11.0
+Storage Driver: aufs
+ Root Dir: /var/lib/docker/aufs
+ Backing Filesystem: extfs
+ Dirs: 8
+ Dirperm1 Supported: true
+Logging Driver: json-file
+Cgroup Driver: cgroupfs
+Plugins: 
+ Volume: local
+ Network: bridge null host
+Kernel Version: 4.4.0-31-generic
+Operating System: Ubuntu 14.04.5 LTS
+OSType: linux
+Architecture: x86_64
+CPUs: 1
+Total Memory: 992.6 MiB
+Name: ubuntu
+ID: EXTJ:BNAT:LAGI:CITE:I2N5:LUEF:JWGU:6TPM:7FPQ:2Q5R:2B44:Q5JV
+Docker Root Dir: /var/lib/docker
+Debug mode (client): false
+Debug mode (server): true
+ File Descriptors: 11
+ Goroutines: 28
+ System Time: 2017-02-22T12:40:35.866031702-08:00
+ EventsListeners: 0
+Registry: https://index.docker.io/v1/
