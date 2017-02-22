@@ -1,32 +1,14 @@
-Containers: 0
- Running: 0
- Paused: 0
- Stopped: 0
-Images: 5
-Server Version: 1.11.0
-Storage Driver: aufs
- Root Dir: /var/lib/docker/aufs
- Backing Filesystem: extfs
- Dirs: 8
- Dirperm1 Supported: true
-Logging Driver: json-file
-Cgroup Driver: cgroupfs
-Plugins: 
- Volume: local
- Network: null host bridge
-Kernel Version: 4.4.0-31-generic
-Operating System: Ubuntu 14.04.5 LTS
-OSType: linux
-Architecture: x86_64
-CPUs: 1
-Total Memory: 992.6 MiB
-Name: ubuntu
-ID: EXTJ:BNAT:LAGI:CITE:I2N5:LUEF:JWGU:6TPM:7FPQ:2Q5R:2B44:Q5JV
-Docker Root Dir: /var/lib/docker
-Debug mode (client): false
-Debug mode (server): true
- File Descriptors: 11
- Goroutines: 28
- System Time: 2017-02-22T13:01:18.734095575-08:00
- EventsListeners: 0
-Registry: https://index.docker.io/v1/
+time="2017-02-22T13:01:18.722869418-08:00" level=debug msg="Calling GET /v1.23/info" 
+time="2017-02-22T13:05:27.782101592-08:00" level=debug msg="Calling POST /v1.23/containers/create?name=crash" 
+time="2017-02-22T13:05:27.782422290-08:00" level=debug msg="form data: {\"AttachStderr\":true,\"AttachStdin\":true,\"AttachStdout\":true,\"Cmd\":null,\"Domainname\":\"\",\"Entrypoint\":[\"/bin/sh\"],\"Env\":[],\"HostConfig\":{\"AutoRemove\":false,\"Binds\":null,\"BlkioBps\":0,\"BlkioDeviceReadBps\":null,\"BlkioDeviceReadIOps\":null,\"BlkioDeviceWriteBps\":null,\"BlkioDeviceWriteIOps\":null,\"BlkioIOps\":0,\"BlkioWeight\":0,\"BlkioWeightDevice\":null,\"CapAdd\":null,\"CapDrop\":null,\"Cgroup\":\"\",\"CgroupParent\":\"\",\"ConsoleSize\":[0,0],\"ContainerIDFile\":\"\",\"CpuCount\":0,\"CpuPercent\":0,\"CpuPeriod\":0,\"CpuQuota\":0,\"CpuShares\":0,\"CpusetCpus\":\"\",\"CpusetMems\":\"\",\"Devices\":[],\"DiskQuota\":0,\"Dns\":[],\"DnsOptions\":[],\"DnsSearch\":[],\"ExtraHosts\":null,\"GroupAdd\":null,\"IpcMode\":\"\",\"Isolation\":\"\",\"KernelMemory\":0,\"Links\":null,\"LogConfig\":{\"Config\":{},\"Type\":\"\"},\"Memory\":0,\"MemoryReservation\":0,\"MemorySwap\":0,\"MemorySwappiness\":-1,\"NetworkMode\":\"default\",\"OomKillDisable\":false,\"OomScoreAdj\":0,\"PidMode\":\"\",\"PidsLimit\":0,\"PortBindings\":{},\"Privileged\":false,\"PublishAllPorts\":false,\"ReadonlyRootfs\":false,\"RestartPolicy\":{\"MaximumRetryCount\":0,\"Name\":\"no\"},\"SandboxSize\":0,\"SecurityOpt\":null,\"ShmSize\":0,\"StorageOpt\":null,\"UTSMode\":\"\",\"Ulimits\":null,\"UsernsMode\":\"\",\"VolumeDriver\":\"nfs\",\"VolumesFrom\":null},\"Hostname\":\"\",\"Image\":\"volume:yes\",\"Labels\":{},\"NetworkingConfig\":{\"EndpointsConfig\":{}},\"OnBuild\":null,\"OpenStdin\":true,\"StdinOnce\":true,\"Tty\":true,\"User\":\"\",\"Volumes\":{\"10.0.2.15/shome/mount\":{}},\"WorkingDir\":\"\"}" 
+time="2017-02-22T13:05:27.782998622-08:00" level=error msg="Handler for POST /v1.23/containers/create returned error: Invalid volume spec \"10.0.2.15/shome/mount\": Invalid volume destination path: '10.0.2.15/shome/mount' mount path must be absolute." 
+time="2017-02-22T13:05:39.359321586-08:00" level=debug msg="Calling POST /v1.23/containers/create?name=crash" 
+time="2017-02-22T13:05:39.359651635-08:00" level=debug msg="form data: {\"AttachStderr\":true,\"AttachStdin\":true,\"AttachStdout\":true,\"Cmd\":null,\"Domainname\":\"\",\"Entrypoint\":[\"/bin/sh\"],\"Env\":[],\"HostConfig\":{\"AutoRemove\":false,\"Binds\":[\"10.0.2.15/shome:/mount\"],\"BlkioBps\":0,\"BlkioDeviceReadBps\":null,\"BlkioDeviceReadIOps\":null,\"BlkioDeviceWriteBps\":null,\"BlkioDeviceWriteIOps\":null,\"BlkioIOps\":0,\"BlkioWeight\":0,\"BlkioWeightDevice\":null,\"CapAdd\":null,\"CapDrop\":null,\"Cgroup\":\"\",\"CgroupParent\":\"\",\"ConsoleSize\":[0,0],\"ContainerIDFile\":\"\",\"CpuCount\":0,\"CpuPercent\":0,\"CpuPeriod\":0,\"CpuQuota\":0,\"CpuShares\":0,\"CpusetCpus\":\"\",\"CpusetMems\":\"\",\"Devices\":[],\"DiskQuota\":0,\"Dns\":[],\"DnsOptions\":[],\"DnsSearch\":[],\"ExtraHosts\":null,\"GroupAdd\":null,\"IpcMode\":\"\",\"Isolation\":\"\",\"KernelMemory\":0,\"Links\":null,\"LogConfig\":{\"Config\":{},\"Type\":\"\"},\"Memory\":0,\"MemoryReservation\":0,\"MemorySwap\":0,\"MemorySwappiness\":-1,\"NetworkMode\":\"default\",\"OomKillDisable\":false,\"OomScoreAdj\":0,\"PidMode\":\"\",\"PidsLimit\":0,\"PortBindings\":{},\"Privileged\":false,\"PublishAllPorts\":false,\"ReadonlyRootfs\":false,\"RestartPolicy\":{\"MaximumRetryCount\":0,\"Name\":\"no\"},\"SandboxSize\":0,\"SecurityOpt\":null,\"ShmSize\":0,\"StorageOpt\":null,\"UTSMode\":\"\",\"Ulimits\":null,\"UsernsMode\":\"\",\"VolumeDriver\":\"nfs\",\"VolumesFrom\":null},\"Hostname\":\"\",\"Image\":\"volume:yes\",\"Labels\":{},\"NetworkingConfig\":{\"EndpointsConfig\":{}},\"OnBuild\":null,\"OpenStdin\":true,\"StdinOnce\":true,\"Tty\":true,\"User\":\"\",\"Volumes\":{},\"WorkingDir\":\"\"}" 
+time="2017-02-22T13:05:39.376106342-08:00" level=debug msg="nfs implements: VolumeDriver" 
+time="2017-02-22T13:05:39.376238311-08:00" level=debug msg="Registering new volume reference: driver \"nfs\", name \"10.0.2.15/shome\"" 
+time="2017-02-22T13:05:39.382434025-08:00" level=debug msg="container mounted via layerStore: /var/lib/docker/aufs/mnt/0838fb07e187a3a548c2cb3cd68013fbb489962641e499664f9bbeb6ad05368d" 
+time="2017-02-22T13:05:39.383544675-08:00" level=debug msg="Registering new volume reference: driver \"nfs\", name \"fd52d47a2b61546aaab685afe7f04a0a731f7920df38fe2cc458313508f3482f\"" 
+time="2017-02-22T13:05:39.385524437-08:00" level=debug msg="copying image data from 335db711c024b94a9086edea78e6a61b917f8ad03c438e65a7e1fa9e28d29971:/mount, to 10.0.2.15/shome" 
+time="2017-02-22T13:05:39.385631192-08:00" level=debug msg="copying image data from 335db711c024b94a9086edea78e6a61b917f8ad03c438e65a7e1fa9e28d29971:/myvol, to fd52d47a2b61546aaab685afe7f04a0a731f7920df38fe2cc458313508f3482f" 
+time="2017-02-22T13:05:39.396274682-08:00" level=debug msg="Removing volume reference: driver nfs, name fd52d47a2b61546aaab685afe7f04a0a731f7920df38fe2cc458313508f3482f" 
+time="2017-02-22T13:05:39.397981724-08:00" level=error msg="Handler for POST /v1.23/containers/create returned error: VolumeDriver.Mount: exit status 32" 
